@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestProj
 {
-    class QlasaQbasa
+    class KlasaQbasa
     {
     }
 }
