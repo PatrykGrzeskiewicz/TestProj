@@ -21,6 +21,18 @@ namespace TestProj
         private void ShowMsgBox(string msg)
         {
             MessageBox.Show(msg, "Test", MessageBoxButton.OK, MessageBoxImage.Information);
+
+            int i = 0;
+        }
+
+        private void Podziel(decimal num, decimal div)
+        {
+            if (div > 0)
+            {
+                decimal Res = Math.Round(num / div, 2);
+
+                Console.WriteLine(Res);
+            }
         }
     }
 }
