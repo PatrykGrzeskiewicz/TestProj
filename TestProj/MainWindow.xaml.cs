@@ -21,8 +21,6 @@ namespace TestProj
         private void ShowMsgBox(string msg)
         {
             MessageBox.Show(msg, "Test", MessageBoxButton.OK, MessageBoxImage.Information);
-
-            int i = 0;
         }
 
         private void Podziel(decimal num, decimal div)
