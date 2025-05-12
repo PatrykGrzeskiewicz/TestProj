@@ -25,7 +25,8 @@ namespace TestProj
 
         private void Podziel(decimal num, decimal div)
         {
-            string a = "";
+            //string a = "";
+            string b = "be";
 
             if (div > 0)
             {
