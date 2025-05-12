@@ -27,7 +27,12 @@ namespace TestProj
 
         private void Podziel(decimal num, decimal div)
         {
-            Console.WriteLine(num / div);
+            if (div > 0)
+            {
+                decimal Res = Math.Round(num / div, 2);
+
+                Console.WriteLine(Res);
+            }
         }
     }
 }
