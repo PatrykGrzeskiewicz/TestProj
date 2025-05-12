@@ -25,6 +25,8 @@ namespace TestProj
 
         private void Podziel(decimal num, decimal div)
         {
+            string a = "";
+
             if (div > 0)
             {
                 decimal Res = Math.Round(num / div, 2);

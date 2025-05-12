@@ -12,6 +12,8 @@ namespace TestProj
         {
             Random random = new Random();
             return random.Next(from, to);
+
+            string d = "";
         }
     }
 }
