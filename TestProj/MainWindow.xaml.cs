@@ -24,5 +24,10 @@ namespace TestProj
 
             int i = 0;
         }
+
+        private void Podziel(decimal num, decimal div)
+        {
+            Console.WriteLine(num / div);
+        }
     }
 }
