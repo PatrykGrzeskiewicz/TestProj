@@ -13,9 +13,12 @@ namespace TestProj
 {
     public partial class MainWindow : Window
     {
+        Class1 Class1;
         public MainWindow()
         {
             InitializeComponent();
+
+            int res = Class1.Rnd(from: 2, to: 4);
         }
 
         private void ShowMsgBox(string msg)
